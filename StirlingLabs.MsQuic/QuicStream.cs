@@ -9,9 +9,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using JetBrains.Annotations;
 using Microsoft.Quic;
-using StirlingLabs.Native;
 using StirlingLabs.Utilities;
 using static Microsoft.Quic.MsQuic;
+using NativeMemory = StirlingLabs.Native.NativeMemory;
 
 namespace StirlingLabs.MsQuic;
 

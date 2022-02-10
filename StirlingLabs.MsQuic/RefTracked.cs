@@ -11,7 +11,7 @@ namespace StirlingLabs.MsQuic;
 [PublicAPI]
 public struct RefTrackedValue<T>
 {
-    public T Value;
+    public T Value = default!;
 
 #if NET5_0_OR_GREATER
     public int RefCount
